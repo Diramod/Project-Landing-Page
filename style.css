@@ -121,7 +121,7 @@ ul, li, a, .left p, .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding: 50px 330px;
     font-size: 30px;
     background-color: #e5e7eb;

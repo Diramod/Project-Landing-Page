@@ -122,15 +122,24 @@ ul, li, a, .left p, .footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 330px;
+    padding: 50px 20px;
     font-size: 30px;
     background-color: #e5e7eb;
     color: #1f2937;
     height: 200px;
-    
 }
 
+.quote p {
+    max-width: 800px;
+}
 
+.quote p:last-child { 
+    width: 100%;
+    max-width: 800px;
+    text-align: right;
+    font-weight: 900;
+    font-size: 30px;
+}
 
 .action {
     display: flex;

@@ -1,0 +1,167 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    height: 72px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 620px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul, li, a, .left p, .footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #1f2937;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+.left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.left {
+    width: 500px;
+}
+
+.left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 25px;
+}
+
+.banner img {
+    height: 300px;
+    width: 500px;
+    
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    height: 400px;
+}
+
+.informations h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.examples {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.informations img {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.examples figcaption{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #4a4b4b;
+
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px 330px;
+    font-size: 30px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: 200px;
+    
+}
+
+
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex: 1;
+    padding: 60px 0;
+}
+
+.action-banner {
+    background-color: #3882f6;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 10px;
+}
+
+.text h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.action-banner button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 5px 25px;
+}
